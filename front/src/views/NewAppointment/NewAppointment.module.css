@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    height: 100vh; 
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    background-color: rgb(248, 249, 254);
+}
+
+.backButton {
+    padding: 8px 16px;
+    background-color: transparent; 
+    color: #007BFF; 
+    border: 2px solid #007BFF;
+    border-radius: 5px; 
+    font-size: 16px;
+    text-decoration: none; 
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+.backButton:hover {
+    background-color: #f0f8ff; 
+    color: #0056b3; 
+    border-color: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.backButton:focus {
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+.title {
+    font-size: 36px; 
+    font-weight: 600; 
+    color: #333; 
+    margin-bottom: 16px; 
+    text-align: center; 
+    font-family: 'Helvetica', sans-serif; 
+}
+
+.description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.form {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formDiv {
+    margin-bottom: 20px;
+    
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+    font-family: 'Arial', sans-serif;
+}
+
+.input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus {
+    border-color: #5e8f9e;
+    outline: none;
+}
+
+input[type="date"],
+input[type="time"] {
+    padding: 8px;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #5e8f9e;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #4d7f8f;
+}
+
+.span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #d9534f; /* Rojo suave */
+    background-color: #f9ecec; /* Fondo rojo claro */
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #d9534f;
+}
